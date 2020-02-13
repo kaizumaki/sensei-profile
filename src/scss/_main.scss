@@ -1,0 +1,13 @@
+.layout-container {
+  position: relative;
+  max-width: 848px;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.reverse {
+  @include bp(md) {
+    flex-direction: row-reverse;
+  }
+}

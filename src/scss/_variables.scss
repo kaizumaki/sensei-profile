@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------
+// Font
+// -----------------------------------------------------------------
+$font-size-base: 1rem;
+$font-size-xl: ($font-size-base * 1.75);
+$font-size-lg: ($font-size-base * 1.25);
+$font-size-sm: ($font-size-base * 0.875);
+$font-size-xs: ($font-size-base * 0.75);
+$font-size-h1: ($font-size-base * 2);
+$font-size-h2: ($font-size-base * 1.75);
+$font-size-h3: ($font-size-base * 1.5);
+
+$font-family-sans-serif: 'Noto Sans JP', Avenir, 'Helvetica Neue', Helvetica, Arial, Verdana,
+  Roboto, -apple-system, BlinkMacSystemFont,
+  'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+$font-family-serif: Garamond, 'Times New Roman', 'Yu Mincho', 'YuMincho',
+  'Hiragino Mincho ProN', 'MS PMincho', serif;
+
+// -----------------------------------------------------------------
+// Base
+// -----------------------------------------------------------------
+$root-background-color: #FFF;
+$root-color: #878787;
+$root-font-family: $font-family-sans-serif;
+$root-font-size: 87.5%;
+$root-line-height: 1.75;
+$root-box-sizing: border-box;
+
+// -----------------------------------------------------------------
+// Variables for gridlex
+// -----------------------------------------------------------------
+$gl-gutter: 1.5rem;
+$gl-gutter-vertical: 1.5rem;
+$gl-attributeName: data-gridlex;
+$gl-mq-width: 'min-width';
+$gl-mq-list: (
+  xl: 95em,
+  lg: 75em,
+  md: 64em,
+  sm: 48em,
+  xs: 35.5em,
+);
